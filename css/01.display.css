@@ -1,9 +1,5 @@
-/*
-1. block요소(영역을 차지)
-	- h1 ~ h6, p, div, header, footer, section ...
-2. inline 요소(글자취급)
-	- a, span, i, em, b, strong, sub, sup ...
-*/
+* {border: 1px solid red;}
+h1 {border: 2px solid blue; display: inline;}
+h2 {border: 2px solid green; display: inline;}
+a {display: block;}
 
-
-span {color: green;}
