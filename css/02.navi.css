@@ -2,3 +2,5 @@
 
 header {background-color: #202020; color: #ffffff;}
 .wrapper {max-width: 1000px; margin: 0 auto;}
+.wrapper a {display: inline-block; padding: 16px;}
+.wrapper a:hover {background-color: #e0e0e0; color: #202020;}

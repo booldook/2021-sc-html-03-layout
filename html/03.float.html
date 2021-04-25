@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Float 개념</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<style>
+		.wrapper {border: 10px solid red; max-width: 1000px; margin: auto;}
+		.wrapper .box {border: 10px solid blue; font-size: 50px; width: 20%; float: left;}
+		/* .wrapper .box:nth-child(3) { float: right;} */
+		.clear::after {display: block; content: ""; clear: both;}
+
+		.wrapper2 {margin-top: 50px;}
+		.wrapper2 img {float: left; margin: 20px;}
+
+		.wrapper3 {margin-top: 50px;}
+		.wrapper3::before {display: block; content: "ABCD";}
+		.wrapper3::after {display: block; content: "EFGH";}
+	</style>
+</head>
+<body>
+	<div class="wrapper clear">
+		<div class="box">1</div>
+		<div class="box">2</div>
+		<div class="box">3</div>
+		<div class="box">4</div>
+		<div class="box">5</div>
+	</div>
+	<div class="wrapper wrapper2">
+		<img src="../img/you1.jpg" alt="">
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est officia deserunt labore porro quis accusamus et reiciendis! Illum nemo accusantium id, similique fugiat quos sequi ipsam mollitia laudantium, commodi doloribus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum mollitia placeat amet assumenda debitis ea optio incidunt minima autem facere? Sit aspernatur tempore ipsam saepe iusto repellendus mollitia, id numquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni temporibus quod eaque incidunt quibusdam voluptatibus voluptatem, fuga, eius, ea obcaecati porro consequatur repellat! Maxime earum perspiciatis accusamus sint maiores esse?
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est officia deserunt labore porro quis accusamus et reiciendis! Illum nemo accusantium id, similique fugiat quos sequi ipsam mollitia laudantium, commodi doloribus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum mollitia placeat amet assumenda debitis ea optio incidunt minima autem facere? Sit aspernatur tempore ipsam saepe iusto repellendus mollitia, id numquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni temporibus quod eaque incidunt quibusdam voluptatibus voluptatem, fuga, eius, ea obcaecati porro consequatur repellat! Maxime earum perspiciatis accusamus sint maiores esse?
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est officia deserunt labore porro quis accusamus et 
+	</div>
+	<div class="wrapper wrapper3">
+		가나다라
+	</div>
+</body>
+</html>
