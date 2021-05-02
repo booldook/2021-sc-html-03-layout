@@ -1,9 +1,17 @@
+.wrapper {max-width: 1000px; margin: 0 auto;}
+/* .wrapper * {border: 1px solid greenyellow;} */
+
 .header-wrapper {background-color: #111; color: #f9f9f9;}
-.header-wrapper .wrapper {max-width: 1000px; margin: 0 auto;}
-/* .header-wrapper .wrapper * {border: 1px solid greenyellow;} */
 .header-wrapper .wrapper .logo {float: left;}
 .header-wrapper .wrapper .navi-wrap {float: right;}
 .header-wrapper .wrapper .navi-wrap .navi {float: left; padding: 16px;}
-.header-wrapper .wrapper .navi-wrap .navi:hover {
-	background-color: #555;
-}
+.header-wrapper .wrapper .navi-wrap .navi:hover {background-color: #555;}
+
+.you-wrapper {margin-top: 50px; border: 2px solid red;}
+.you-wrapper .you-wrap {width: 102%;}
+.you-wrapper .you {float: left; width: 23%; margin-right: 2%; border: 2px solid blue;}
+.you-wrapper .you img {width: 100%;}
+
+.box-wrapper {border: 10px solid black; margin-top: 50px; overflow: hidden;}
+.box-wrapper > .box-wrap { width: 102%; background-color: indianred;}
+.box-wrapper > .box-wrap > .box {float: left; width: 23%; height: 200px; border: 10px solid #039; margin-right: 2%;}
